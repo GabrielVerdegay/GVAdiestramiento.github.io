@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Adiestramiento Canino</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog de Adiestramiento Canino</h1>
+        <nav>
+            <ul>
+                <li><a href="#articles">Artículos</a></li>
+                <li><a href="#add-article">Añadir Artículo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="articles">
+            <h2>Artículos Recientes</h2>
+            <!-- Aquí se cargarán los artículos -->
+        </section>
+
+        <section id="add-article">
+            <h2>Añadir Nuevo Artículo</h2>
+            <form id="article-form">
+                <label for="title">Título:</label>
+                <input type="text" id="title" name="title" required>
+
+                <label for="content">Contenido:</label>
+                <textarea id="content" name="content" rows="5" required></textarea>
+
+                <button type="submit">Añadir Artículo</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Adiestramiento Canino</p>
+    </footer>
+
+  
